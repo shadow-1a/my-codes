@@ -1,0 +1,15 @@
+#include<iostream>
+#include<vector>
+
+int main(){
+    std::vector<int> v={0,1,2};
+    //std::vector<int> :: iterator it=v.begin();
+//std::cout<<*it<<std::endl;
+//for(int m:v){
+for(auto it=v.begin();it<v.end();it++){
+
+
+std::cout<<*it<<std::endl;//<<m<<std::endl;
+//it++;
+}
+}
