@@ -1,0 +1,9 @@
+#include<iostream>
+#include<map>
+int main(){
+   std:: map<char,int>m;
+   m['a']=5;
+   m['c']=40;
+   m['b']=100;
+   for(auto it=m.begin();it!=m.end();it++){
+std::cout<<it->first<<" "<<it->second<https://shadow-1a.github.io/mathura-tourism1/
