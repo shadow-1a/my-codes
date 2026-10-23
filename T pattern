@@ -1,0 +1,19 @@
+#include <iostream>
+int main(){
+    int n,m,k;
+    std::cin>>m;
+    n=m-1;
+    k=n;
+   for(;n!=0;n--){
+
+    for(int i=1;i<=m;i++){
+        if(i==(m+1)/2||n==k){
+            std::cout<<" * ";
+        }
+        else{
+            std::cout<<"   ";
+        }
+    }
+    std::cout<<std::endl;
+   }
+} 
