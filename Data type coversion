@@ -1,0 +1,25 @@
+#include<iostream>
+#include<string>
+#include<sstream>
+int main(){
+    char a='a';
+    int b=a;//char-direct
+    std::cout<<b;
+    int m=(int)a;//char-(int)
+    std::cout<<m;
+    std::string k="1234567";
+    int d=stoi(k);//stoi-string
+    std::cout<<d;
+    std::string n="1234567";
+    std::stringstream ss(n);//string stream-string
+    std::cout<<n;
+    char c='4';//converting '4' to 4 by using '0' 
+    int q=c-'0';
+    std::cout<<q;
+double t=5.79879;
+int bvv=t;//explicit casting-doublde to int 
+int g=(int)t;//explicit casting-doublde to int
+int fd=(int)5.88;//explicit casting-5.88 to int
+int uh=(int)'k';//char(k) to int
+std::cout<<bvv<<g<<fd<<uh;
+}
