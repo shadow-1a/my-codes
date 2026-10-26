@@ -1,0 +1,23 @@
+#include<iostream>
+int main(){
+    int a=7,i=4,j=4,m=4,n=3,s=4;//IMAGINE LIKE A SQAURE AND COND AT WHICH HAVE TO PRINT
+    while(s--){
+a=8;
+i=4;
+j=4;
+        while(a--){
+            if(a<=m&&a>=n){
+                std::cout<<" * ";
+            }
+            else{
+                std::cout<<"   ";
+            }
+            i++;
+            j--;
+        }
+        std::cout<<std::endl;
+        m++;
+        n--;
+    }
+
+}
