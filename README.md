@@ -6,4 +6,4 @@ Welcome to my repository! This is a dedicated space where I store my code snippe
 * **C++** (Primary language for speed and efficiency)
   
 ---
-*Maintained by [shadow-1a](https://github.com)* 🌐
+*Maintained by [passerby](https://github.com)* 🌐
