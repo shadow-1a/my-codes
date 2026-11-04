@@ -1,0 +1,32 @@
+#include<iostream>
+int main(){
+    int i=1,a,b=1,c=0,d,e,f,g,m=1;
+    std::cin>>a;
+    while(i<a){
+b+=2;
+i++;
+    }
+    d=(b+1)/2;
+    g=(b+1)/2;
+    i=0;
+    while(i<a){
+        c=1;
+m=1;
+
+ 
+        while(c<=b){
+            if(d>=c&&c>=g){
+                std::cout<<m<<" ";
+                m+=2;
+            }
+            else{
+                std::cout<<"  ";
+            }
+            c++;
+        }
+        std::cout<<std::endl;
+d++;
+g--;
+        i++;
+    }
+}
